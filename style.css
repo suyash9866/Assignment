@@ -6,23 +6,23 @@
   margin: 0%;
 }
 
-body { 
-  background-image: url(ball.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background: cover;
- 
-} 
+body {
+  background-position:center ;
+  background-image:url(forest.jpg) ;
+  background-repeat: repeat no-repeat;
+  background-size:cover ;
+  background-attachment: fixed;
+}
 
-h2 {
-  padding: 10px;
-  width: 95%;
-  padding-top: 2%;
+.welcome {
   text-align: center;
-  color: black;
+  color:beige ;
+  text-shadow: 2px 9px 5px rgba(11, 36, 38, 0.992);
+  width:95%;
+  padding:10px;
+  padding-top:300px;
+  font-size:x-large ;
   padding-left: 2%;
-  padding-top: 25%;
-  text-shadow: 2px 9px 5px rgba(11, 36, 38, 0.992)
 }
 
 ul {
@@ -30,7 +30,7 @@ ul {
   overflow: hidden;
   list-style-type: none;
   border-radius: 25px;
-  margin-top: 15px;
+  margin-top:15px;
   box-shadow: 0px 0px 17px currentcolor;
 
 }
@@ -52,7 +52,7 @@ li a:hover {
   border: 2px solid white;
 }
 
-.active {
+.colour {
   background-color: lightseagreen; 
 }
 
@@ -60,7 +60,8 @@ h1{
   text-align:center;
   padding-top: 0%;
   text-shadow: 2px 9px 5px rgba(4, 20, 22, 0.992);
-  color: rgb(103, 24, 17);
+  color: beige;
+  font-size: xx-large;
 }
 
 span {
@@ -68,13 +69,128 @@ span {
 }
 
 
+/* contact */
+ 
+div {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.container {
+  padding:50px;
+}
+
+h3 {
+  float: right;
+  font-size: xx-large;
+  color:beige;
+  padding-right:3% ;
+  padding-top: 2%;
+}
+
+input[type=form] {
+  border-radius: 10px;
+  padding: 9px 22px;
+  opacity: 75%;
+  border:none;
+}
+
+textarea {
+  border-radius: 10px;
+  opacity: 75%;
+  border: none;
+}
+
+.submit {
+  border-radius: 10px;
+  background-color: #42bfcd;
+  padding:10px;
+  border: none;
+  width:95px ;
+  height:40px ;
+  margin-left:46.5% ;
+}
+
+.submit:hover {
+  background-color: rgb(85, 225, 77);
+}
+
+a {
+  text-decoration-line:none;
+  color: aliceblue;
+}
+
+label {
+  color: beige;
+}
+
 /* portfolio */
 
+.placeholder {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap:65px ;
+}
 
+ .left-image {
+   border-style:none;
+   float: left;
+   margin-left: 20px;
+   border-radius:25px ;
+   height:500px ;
+   background-color:rgb(138, 139, 144);
+   opacity:75% ;
+ }
 
+  img {
+    width:250px;
+  } 
 
+ .middle-image {
+   border-style:none ;
+   float:bottom;
+   margin-bottom: 20px;
+   border-radius:25px;
+   background-color:rgb(138, 139, 144);
+   opacity:75% ;
+   z-index:-1;
+ }
 
+.right-image {
+   float:right;
+   border-style:none;
+   margin-right:20px;
+   border-radius:25px;
+   background-color:rgb(138, 139, 144);
+   opacity:75% ;
+}
 
+h2 {
+  padding-top:150px ;
+  color:beige;
+}
+
+/* Blog */
+
+.blogs {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  grid-column-gap:50px ;
+}
+
+.page1 {
+  background-color: antiquewhite;
+  margin-left:15px ;
+}
+
+.page2 {
+  background-color:antiquewhite;
+}
+
+.page3 {
+  background-color: antiquewhite;
+  margin-right:15px ;
+}
 
 
 
