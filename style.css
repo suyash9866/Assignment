@@ -8,7 +8,7 @@
 
 body {
   background-position:center ;
-  background-image:url(forest.jpg) ;
+  background-image:url(try5.jpg) ;
   background-repeat: repeat no-repeat;
   background-size:cover ;
   background-attachment: fixed;
@@ -176,25 +176,80 @@ h2 {
   display: grid;
   grid-template-columns:auto auto auto;
   grid-column-gap:50px ;
+  margin-top:8% ;
 }
 
 .page1 {
   background-color: antiquewhite;
   margin-left:15px ;
+  height:150% ;
+  border-radius:20px ;
+  padding:20px ;
+  font-size:larger ;
+  font-family:serif ;
+  text-align: start;
+  opacity:85% ;
+}
+
+.phase1 {
+    padding:8px ;
+    font-size: xx-large;
+    text-shadow: 22px;
+    color: rgb(232, 11, 11);
 }
 
 .page2 {
   background-color:antiquewhite;
+  height:150% ;
+  border-radius:20px ;
+  padding: 20px;
+  font-size:larger ;
+  font-family:serif ;
+  text-align: start;
+  opacity:85% ;
+}
+
+.phase2 {
+    padding:8px ;
+    font-size: xx-large;
+    text-shadow: 22px;
+    color: rgb(232, 11, 11);
 }
 
 .page3 {
   background-color: antiquewhite;
   margin-right:15px ;
+  height:150% ;
+  border-radius:20px ;
+  padding: 20px;
+  font-size:larger ;
+  font-family:serif ;
+  text-align: start;
+  opacity:85% ;
 }
 
+.phase3 {
+    padding:8px ;
+    font-size: xx-large;
+    text-shadow: 22px;
+    color: rgb(232, 11, 11); 
+}
+
+/* site report */
 
 
 
+/* media query to make it responsive(easy to use on mobile phone sreen) */
+
+@media only screen and (max-width: 760px) {
+  li{
+    float:none;
+  }
+   .placeholder{
+     grid-template-columns: none;
+   }
+   .blogs{ grid-template-columns: none;}
+}
 
 
 
