@@ -196,8 +196,6 @@ h2 {
     font-size: xx-large;
     text-shadow: 22px;
     color: rgb(232, 11, 11);
-=======
->>>>>>> 71b4607967de03ae7ca0ab132e66b547c1bd9ca9
 }
 
 .page2 {
@@ -252,6 +250,7 @@ h2 {
    }
    .blogs{ grid-template-columns: none;}
 }
+
 
 
 
