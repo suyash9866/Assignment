@@ -237,6 +237,34 @@ h2 {
 
 /* site report */
 
+.report250 {
+  background-color: beige;
+  border-radius:10px ;
+  margin:20px 20px 0px 20px ;
+  padding:20px ;
+  
+}
+
+.validation {
+  background-color: rgb(181, 181, 137);
+  border-radius:10px ;
+  margin:20px 150px 0px 150px ;
+  padding: 20px;
+}
+
+.ref {
+  font-size: xx-large;
+  padding:2px ;
+}
+
+.references {
+  background-color: bisque;
+  border-radius:10px ;
+  margin:20px 200px 0px 200px ;
+  padding:10px ;
+  text-align: start;
+}
+
 
 
 /* media query to make it responsive(easy to use on mobile phone sreen) */
