@@ -88,7 +88,7 @@ h3 {
   padding-top: 2%;
 }
 
-input[type=form] {
+input[type=text] {
   border-radius: 10px;
   padding: 9px 22px;
   opacity: 75%;
@@ -148,7 +148,6 @@ label {
 
  .middle-image {
    border-style:none ;
-   float:bottom;
    margin-bottom: 20px;
    border-radius:25px;
    background-color:rgb(138, 139, 144);
@@ -194,7 +193,6 @@ h2 {
 .phase1 {
     padding:8px ;
     font-size: xx-large;
-    text-shadow: 22px;
     color: rgb(232, 11, 11);
 }
 
@@ -212,7 +210,6 @@ h2 {
 .phase2 {
     padding:8px ;
     font-size: xx-large;
-    text-shadow: 22px;
     color: rgb(232, 11, 11);
 }
 
@@ -231,7 +228,6 @@ h2 {
 .phase3 {
     padding:8px ;
     font-size: xx-large;
-    text-shadow: 22px;
     color: rgb(232, 11, 11); 
 }
 
@@ -242,14 +238,81 @@ h2 {
   border-radius:10px ;
   margin:20px 20px 0px 20px ;
   padding:20px ;
-  
+  text-align:start ;
+  font-size: large;
+}
+
+.title {
+  font-size: xx-large;
+  font-family:serif ;
+  padding:1px ;
+}
+
+.val {
+ background-color: rgb(181, 181, 137);
+ height: 770px ;
+ border-radius:10px ;
+ margin: 20px 20px 0px 20px ;
+ font-size: xx-large;
+ font-weight: 400;
 }
 
 .validation {
-  background-color: rgb(181, 181, 137);
-  border-radius:10px ;
-  margin:20px 150px 0px 150px ;
+  text-align:start ;
+  display:grid ;
+  margin: 0px 20px 20px 20px;
+  grid-template-columns: 450px 450px 450px ;
+  grid-template-rows: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   padding: 20px;
+
+}
+
+.im1{
+  background-image:url(home.jpg);
+  background-size: cover;
+  grid-row: 1/2;
+  height:300px;
+}
+
+.im2{
+  background-image:url(portfolio.jpg);
+  background-size: cover;
+  grid-row:1/2;
+  grid-column:2/3;
+  height:300px;
+}
+
+.im3{
+  background-image:url(contact.jpg);
+  background-size: cover;
+  grid-row: 1/2;
+  grid-column:3/3;
+  height:300px;
+}
+
+.im4{
+  background-image:url(blog.jpg);
+  background-size: cover;
+  grid-row: 2/2;
+  height:300px;
+}
+
+.im5{
+  background-image:url(sitereport.jpg);
+  background-size: cover;
+  grid-row: 2/2;
+  grid-column:2/3 ;
+  height:300px;
+}
+
+.im6{
+  background-image:url(css.jpg);
+  background-size: cover;
+  grid-row: 2/2;
+  grid-column:3/3 ;
+  height:300px;
 }
 
 .ref {
@@ -260,16 +323,18 @@ h2 {
 .references {
   background-color: bisque;
   border-radius:10px ;
-  margin:20px 200px 0px 200px ;
+  margin:20px 20px 20px 20px ;
   padding:10px ;
   text-align: start;
+  font-size: large;
+
 }
 
 
 
 /* media query to make it responsive(easy to use on mobile phone sreen) */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 540px) {
   li{
     float:none;
   }
@@ -277,6 +342,21 @@ h2 {
      grid-template-columns: none;
    }
    .blogs{ grid-template-columns: none;}
+   .page1 {margin-right:20px ;padding:20px 20px 20px 20px ;height:fit-content }
+   .page2 {margin:20px 20px 0px 20px;height: auto;}
+   .page3 {margin:20px; height: fit-content;}
+  ul { margin: 15px 20px 2px 20px;}
+   .left-image {margin:0px 20px 20px 20px}
+   .middle-image {margin:0px 20px 20px 20px ;}
+   .right-image {margin:0px 20px 20px 20px ;} 
+   .val{height:2000px;}
+   .validation { grid-template-columns: auto; grid-template-rows: auto auto auto auto auto auto;}
+   .im1{grid-column:1/1;width:400px;}
+   .im2{grid-row:2/6;grid-column:1/1;}
+   .im3 {grid-row:3/6;grid-column:1/1;margin-top:300px ;}
+   .im4 {grid-row:4/6;grid-column:1/1;margin-top:600px ;}
+   .im5 {grid-row:5/6;grid-column:1/1;margin-top:900px ;}
+   .im6 {grid-row:6/6;grid-column:1/1;}
 }
 
 
